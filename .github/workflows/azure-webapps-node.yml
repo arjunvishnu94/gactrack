@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Use the desired Node.js version (e.g., 16, 18)
+          node-version: '20'  # Use the desired Node.js version (e.g., 16, 18)
 
       # Install dependencies
       - name: Install dependencies
@@ -34,5 +34,5 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           app_location: "/"  # Root folder of your app (adjust if necessary)
-          output_location: "dist/your-angular-app-name"  # Replace with the folder where the built files are located (Angular default is `dist/`)
+          output_location: "dist/client"  # Replace with the folder where the built files are located (Angular default is `dist/`)
 
