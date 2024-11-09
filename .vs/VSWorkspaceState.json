@@ -1,7 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src"
+    "\\src",
+    "\\src\\app\\turnstile-captcha"
   ],
   "PreviewInSolutionExplorer": false
 }
